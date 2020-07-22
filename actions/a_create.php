@@ -7,7 +7,7 @@ if ($_POST) {
    $lname = $_POST['last_name'];
    $dob = $_POST[ 'date_of_birth'];
 
-   $sql = "INSERT INTO user (first_name, last_name, date_of_birth) VALUES ('$fname', '$lname', '$dob')";
+   $sql = "INSERT INTO `user` (first_name, last_name, date_of_birth) VALUES ('$fname', '$lname', '$dob')";
     if($connect->query($sql) === TRUE) {
        echo "<p>New Record Successfully Created</p>" ;
        echo "<a href='../create.php'><button type='button'>Back</button></a>";
