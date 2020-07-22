@@ -1,6 +1,6 @@
 <?php require_once 'actions/db_connect.php'; ?>
 
-<!DOCTYPE html>
+
 <html>
 <head>
    <title>PHP CRUD</title>
@@ -22,8 +22,9 @@
 <body>
 
 <div class ="manageUser">
-   <a href= "create.php"><button type="button" >Add User</button></a>
-   <table  border="1" cellspacing= "0" cellpadding="0">
+ 
+  <a href= "create.php"> <button type="button">Add User</button></a>
+   <table  border="1" cellspacing= "0" cellpadding="0"> 
        <thead>
            <tr>
                <th>Name</th>
@@ -32,7 +33,7 @@
            </tr>
        </thead>
        <tbody>
-          <?php
+   <?php
            $sql = "SELECT * FROM user WHERE active = 0";
            $result = $connect->query($sql);
 
@@ -52,7 +53,7 @@
            }
             ?>
 
-           
+
        </tbody>
    </table>
 </div>

@@ -49,12 +49,12 @@ if ($_GET['id']) {
            </tr>
            <tr>
                <th >Date of birth</th>
-               < td><input type ="text" name= "date_of_birth" placeholder= "Date of birth" value= "<?php echo $data['date_of_birth'] ?>" /></td>
+               <td><input type ="text" name= "date_of_birth" placeholder= "Date of birth" value= "<?php echo $data['date_of_birth'] ?>" /></td>
            </tr>
            <tr>
                <input type= "hidden" name= "id" value= "<?php echo $data['id']?>" />
                <td><button  type= "submit">Save Changes</button ></td>
-               <td><a  href= "index.php">< button  type="button" >Back</button ></a ></td >
+               <td><a  href= "index.php"><button  type="button" >Back</button ></a ></td >
            </tr>
        </table>
    </form >
