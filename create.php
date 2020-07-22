@@ -1,5 +1,4 @@
-
-
+<!DOCTYPE html>
 <html>
 <head>
    <title>PHP CRUD  |  Add User</title>
@@ -14,15 +13,15 @@
        table tr th  {
            padding-top: 20px;
        }
-   </ style>
+   </style>
 
 </head>
 <body>
 
-<fieldset >
+<fieldset>
    <legend>Add User</legend>
 
-     <form action="actions/a_create.php" method= "post">
+     <form actions="actions/a_create.php" method="post">
        <table cellspacing= "0" cellpadding="0">
            <tr>
                <th>First Name</th>
